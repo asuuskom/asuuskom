@@ -1,0 +1,668 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Black.woff2') format('woff2'),
+        url('../fonts/Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url('../fonts/') format('woff2'),
+        url('../fonts/HindMadurai-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url('../fonts/HindMadurai-SemiBold.woff2') format('woff2'),
+        url('../fonts/HindMadurai-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url('../fonts/HindMadurai-Bold.woff2') format('woff2'),
+        url('../fonts/HindMadurai-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Fredoka One';
+    src: url('../fonts/') format('woff2'),
+        url('../fonts/FredokaOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:"Roboto","Arial",sans-serif;
+    font-family: "Fredoca One",sans-serif;
+    font-family:"Hind Madurai",sans-serif;
+    font-size: 16px;
+    
+ 
+}
+.container{
+    width: 1171px;
+    margin:0 auto;
+}
+
+.header{
+  
+    display: flex;
+   background-color: rgba(242, 206, 218, 0.3);
+ 
+}
+
+.container-header {
+    margin: 0 auto;
+    width: 1125px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.header-logo {
+    display: block;
+}
+.header-img {
+    display: block;     
+}
+
+.header-nav { 
+
+    display: flex;
+    align-items: center;
+     justify-content:space-between;
+}
+.header-list {
+    margin: 0;
+    padding: 0;
+   
+    display: flex;
+    align-items: center;
+    list-style: none;
+justify-content: space-between;
+}
+.header-item {
+      padding-top: 32px;
+    padding-bottom: 31px;
+    margin-right: 40px;
+    display: block;
+}
+.header-item:nth-child(5n) {
+margin-right: 0;
+}
+
+.header-link {
+  
+    text-decoration: none;
+    font-weight: normal;
+font-size: 14px;
+line-height: 1.2;
+color: #150101
+}
+.header-link:hover{
+color: #D23166;
+}
+
+
+
+.header-now-link {
+display: flex;
+align-items: center;
+  justify-content:center;
+    width: 165px;
+    height: 49px;
+text-decoration: none;
+background-color: #D23166;
+border-radius: 5px;
+color: #FAFAFA;
+} 
+.header-link-home {
+    color:#D23166 ;
+}
+
+/* introoo */
+.intro {
+     padding: 193px 0 216px;
+    background-color: rgba(242, 206, 218, 0.3);
+    background-image: url("../img/muzqaymoq.png");
+    background-repeat: no-repeat;
+    background-position:calc(50% + 300px) center;
+  
+}
+
+
+.intro-text {
+
+    margin: 0;
+    padding: 0;
+    width: 172px;
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.1em;
+color: #0F0101;
+}
+.intro-text-feel {
+    margin-top:6px;
+    margin: 0;
+    padding: 0;
+    width: 665px;
+    font-weight: normal;
+font-size: 57.33px;
+line-height: 120.5%;
+color: #0F0101;
+}
+.intro-text-some {
+    margin-top: 35px;
+    margin: 0;
+    padding: 0;
+    width: 523px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #0F0101;
+   
+}
+
+.span {
+    color:#D64374 ;
+}
+.intro-link {
+    margin-top: 50px; 
+    padding: 20px 50px 15px;
+width: 165px;
+height: 49px;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.5px;
+text-decoration: none;
+color: #FAFAFA;
+background: #D23166;
+border-radius: 5px;
+display: inline-block;
+vertical-align:middle;
+
+}
+
+/* SECTIONN */
+.color-section {
+   background-color: #fff
+}
+.section-list {
+ 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+
+}
+.section-item {
+  
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 33px 26px 28px 26px;
+   margin-right: 39px;
+     width: 250px;
+height: 200px; 
+    background: #FFFFFF;
+     border: 3px solid rgba(0, 0, 0, 0.03);
+border-radius: 7px;
+}
+.section-item:hover{
+    border: none;
+     background: #FFFFFF;
+     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03); 
+}
+.section-item::nth-child(5n){   
+margin-right: 0;
+}
+.section-img {
+    width: 51px;
+    height: 43px;
+background-image: url("../img/mashina.svg");
+background-repeat: no-repeat;
+display: block;
+margin: 0 auto;
+}
+.section-img-cofe {
+    width: 27px;
+    height: 42px;
+background-image: url("../img/quti.svg");
+background-repeat: no-repeat;
+display: block;
+margin: 0 auto;
+}
+.section-img-mony{
+    width: 44px;
+    height: 44px;
+background-image: url("../img/money.svg");
+background-repeat: no-repeat;
+display: block;
+margin: 0 auto;
+}
+.section-img-delevery{
+    width: 54px;
+    height: 54px;
+background-image: url("../img/arava.svg");
+background-repeat: no-repeat;
+display: block;
+margin: 0 auto;
+}
+
+
+.section-crem{
+   background-color: #F8EDF0;
+
+}
+.container-tariff{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.section-text {
+    width: 198px;
+   
+    margin: 0;  
+}
+.section-brown {
+    width: 349px;
+height: 98px;
+    font-style: normal;
+font-weight: 600;
+font-size: 44.2px;
+line-height: 49px;
+color: #150101;
+    margin: 0;
+    padding: 0;
+}
+.section-text-crem {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    width: 442px;
+    color: rgba(21, 1, 1,0.6);
+}
+.link-crem {
+    padding: 23px 42px 10px 41px;
+    display: block;
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2px;
+color: #FAFAFA;
+text-decoration: none;
+    background-color: #D64374;
+border-radius: 5px;
+    width: 165px;
+height: 49.13px;  
+}
+
+.brovn-sugar{
+    margin-right: 0;
+    margin-bottom: -40px;
+}
+.our-products {
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: #150101;
+}
+.products-list {
+  display: flex;
+  justify-content:center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+    margin-top: 65px;
+    list-style: none;
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+
+}
+.products-list:last-child{
+    margin-right: 0;
+}
+.services-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  
+
+}
+.content-breed {
+ display: flex;
+align-items: center;
+}
+.products-crem{
+    display: flex;
+    align-items:center;
+}
+
+ .products-crem:nth-child(2n) .content-breed{
+    text-align: right;
+    flex-direction:row-reverse;
+    
+} 
+
+.content-crem {
+margin-left: 85px;
+}
+
+.products-link {
+    margin-right: 40px;
+    text-decoration: none;
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: rgba(0, 0, 0,0.6);
+}
+.products-link:hover{
+    color:  #000000;
+    border-bottom: 3px solid #D64374;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.our-products-link {
+   
+    padding:15px 46px 15px 45pX;
+    text-decoration: none;
+    color: #FAFAFA;
+    width: 165px;
+height: 49px;
+background-color: #D64374;
+border-radius: 5px;
+}
+.our-pro {
+    font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 36px;
+color: #000000;
+
+}
+
+
+
+
+/* ctaa  */
+.cta {
+    padding: 56px 0 150px;
+    background-color:#F8EDF0;
+   
+}
+.cta-titel {
+    margin: 0;
+    padding: 0;
+ width: 621px;
+ font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 44.2px;
+line-height: 52px;
+color: #000000;
+   
+}
+.cta-text{
+    width: 607px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+.cta-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.cta-item {
+    margin-top: 31px;
+    display: flex;
+    align-items: center;
+}
+.cta-item::before {
+width: 30px;
+height: 30px;
+display: block;
+margin-right: 10px;
+border-radius: 3px;
+background-image: url("../img/qo\'lcha.svg");
+background-position: center center;
+background-repeat: no-repeat;
+background-color: #FFFFFF;
+content: '';
+}
+.cta-item-cart{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+} 
+
+.cta-item-cart::before{
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-right: 10px;
+    border-radius: 3px;
+    background-image: url("../img/karzina.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    content: '';   
+}
+.cta-item-food {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+} 
+.cta-item-food::before{
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-right: 10px;
+    border-radius: 3px;
+    background-image: url("../img/karzina2.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    content: '';   
+}
+
+
+
+.servis{
+     width: 621px;
+   margin-left: auto;
+   margin-top: 56px;
+}
+
+.container-cta {
+   position: relative;
+  
+}
+.container-cta::before{
+   
+    width: 305px;
+    height: 627px;
+    display: block;
+    background-image: url("../img/skrenshot.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    border-radius: 33px;
+    top: 0;
+    left: 0;
+    content:'';
+}
+.cta-content {
+    margin-top: 41px;
+    display: flex;
+    align-items: center;
+}
+/* forum */
+.forum {
+    padding:150px 0 71px
+}
+
+.input {
+    padding: 29px 10px;
+margin-right: 30px;
+    width: 303px;
+height: 74px;
+background-color: #FFFFFF;
+border: 1px solid #FFA3A3;
+box-sizing: border-box;
+border-radius: 5px;
+}
+.content-input {
+    display: flex;
+    justify-content: center;
+  
+}
+.select {
+    padding: 15px 25px;
+    width: 303px;
+    height: 74px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFA3A3;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.button{
+  
+    display: flex;
+    justify-content: center;
+     margin-top: 37px;
+    
+}
+
+
+.input-type {
+    display: flex;
+    justify-content: center;
+    padding: 29px 145px 29px 20px;
+    width: 637px;
+    height: 74px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFA3A3;
+    border-radius: 5px;
+
+}
+
+
+.button-send {
+    width: 134px;
+height: 74px;
+color: #FFFFFF;
+background: #D64374;
+border-radius: 5px;
+position: absolute;
+
+}
+
+.section-form {
+    margin-bottom: 36px;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+line-height: 52px;
+text-align: center;
+color: #000000;
+}
+/* foter  */
+.footer {
+   padding-top: 70px;
+   padding-bottom: 104px;
+background-color: #0A0808;
+height: 381px;
+}
+.footer-content {
+display: flex;
+justify-content: space-between;
+color: rgba(255, 255, 255,0.3);
+}
+.foter-text {
+    margin: 0;
+    width: 207px;
+    font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 17px;
+
+color: rgba(255, 255, 255,0.3);
+}
+.foter-item {
+    margin-right: 10px;
+}
+
+
+.foter-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
